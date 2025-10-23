@@ -1,0 +1,6 @@
+pyserial
+obd
+smbus2
+adafruit-circuitpython-bme280
+adafruit-circuitpython-lsm6ds
+pyyaml

@@ -1,0 +1,11 @@
+sample_hz: 10
+csv_dir: "./data"
+obd:
+  enabled: true
+  device_candidates: ["/dev/ttyUSB0","/dev/ttyACM0","/dev/serial0"]
+  fast: false
+  timeout: 1.0
+i2c:
+  enabled: true
+  imu_addr: 0x6A
+  bme280_addr: 0x76
